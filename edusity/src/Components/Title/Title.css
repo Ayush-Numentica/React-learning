@@ -5,6 +5,8 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 70px 0 30px;
+    /* Prevent fixed navbar from covering the title when using in-page anchors */
+    scroll-margin-top: 150px;
 }
 
 .title h2{

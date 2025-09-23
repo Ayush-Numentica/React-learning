@@ -27,7 +27,7 @@ const Testimonials = () => {
 
 
     return (
-        <div id='testimonials' className='testimonials'>
+        <div className='testimonials'>
 
             <img src={next_icon} alt="" className='next-btn' onClick={slideForward} />
             <img src={back_icon} alt="" className='back-btn' onClick={slideBackward} />
