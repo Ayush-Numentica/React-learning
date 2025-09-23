@@ -17,11 +17,11 @@ const Navbar = () => {
     <nav className={`container ${sticky ? 'dark-nav':""}`}>
         <img src={logo} alt="" className='logo' />
         <ul>
-            <li>About</li>
-            <li>Program</li>
-            <li>About us</li>
-            <li>Campus</li>
-            <li>Testimonials</li>
+            <li><a href="#hero">About</a></li>
+            <li><a href="#program">Program</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#campus">Campus</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
             <li><button className='btn'>Contact Us</button></li>
         </ul>
     </nav>
